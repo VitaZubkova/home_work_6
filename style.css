@@ -1,0 +1,92 @@
+body{
+	font-family: sans-serif;
+	color: #333333;
+}
+.wrapper{
+	padding: 0 100px;
+}
+.head{
+	color: grey;
+	margin: 10px 0 10px 40px;
+}
+.headbutton li:hover{
+	background-color: #DDDDDD;
+}
+.button{
+	text-decoration: none;
+	color:#848585;
+}
+.headbutton li{
+	list-style: none;
+	display: inline-block;
+	width: calc(100% / 6 - 50px);
+	background-color: #EDEDED;
+	box-shadow: inset 0px 5px 5px   rgba(0,0,0,0.1);
+	padding: 10px 20px;
+	border: 1px solid #E4E4E4;
+	font-size: 16px;
+	text-align: center;
+}
+.first {
+	border-radius: 5px 0 0 5px;
+}
+.last{
+	border-radius: 0 5px 5px 0;
+}
+
+.marketing{
+	font-size: 50px;
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+.text{
+	text-align: center;
+	padding: 0 32px;
+}
+.start{
+	display: block;
+	color: white;
+	background-color: #5CB85C;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	width: 125px;
+	margin-left: 40%;
+	
+}
+.blok{
+	display: block;
+
+}
+
+.title{
+	font-size: 18px;
+}
+.news{
+	list-style: none;
+	display: block;
+	width: 30%;
+	padding: 20px 10px;
+	float: left;
+	font-size: 12px;
+}
+.redtext{
+	color: red;
+}
+.bluebutton{
+	background-color: #337AB7;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 3px;
+}
+footer{
+	position: absolute;
+	left: 155px;
+	bottom: 0;
+    width: calc(100% - 310px);
+    font-size: 12px;
+}
+
+
+
