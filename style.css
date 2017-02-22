@@ -11,19 +11,20 @@ body{
 }
 .headbutton li:hover{
 	background-color: #DDDDDD;
+	box-shadow: inset 0px 5px 5px   rgba(0,0,0,0.1);
 }
 .button{
 	text-decoration: none;
 	color:#848585;
+
 }
 .headbutton li{
 	list-style: none;
 	display: inline-block;
 	width: calc(100% / 6 - 50px);
 	background-color: #EDEDED;
-	box-shadow: inset 0px 5px 5px   rgba(0,0,0,0.1);
 	padding: 10px 20px;
-	border: 1px solid #E4E4E4;
+	border: 1px solid #E7E7E7;
 	font-size: 16px;
 	text-align: center;
 }
